@@ -46,14 +46,14 @@ int main()
     // // true -> 1 and false -> 0; Relational op give boolean value.
     // cout << (3 != 3) << endl;
 
-    cout << !(3>5) << endl; // && - AND , || - OR , ! - NOT.
+    cout << !(3 > 5) << endl; // && - AND , || - OR , ! - NOT.
 
     // Unary operator: ++, --
     int a = 1;
-     int b = a++; // post increment op // ++a pre increment op.
-     int c = ++a;
-    cout << "b = "<< b << endl;
-    cout << "c = "<< c << endl;
-cout << "a = "<< a << endl;
+    int b = a++; // post increment op // ++a pre increment op.
+    int c = ++a;
+    cout << "b = " << b << endl;
+    cout << "c = " << c << endl;
+    cout << "a = " << a << endl;
     return 0;
 }
