@@ -3,8 +3,7 @@ using namespace std;
 
 
 int sum(int a){
-    
-   return ; 
+  return a*(a+1)/2 ; 
 }
 
 int main() {
