@@ -23,7 +23,7 @@ int nCr(int n, int r){
 
     int ans = fact_n / (fact_r * fact_n_minus_r);
     return ans;
-}
+} 
 int main (){
     int n;
     cout << "Enter value of n: ";
