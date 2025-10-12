@@ -26,7 +26,7 @@ void binarySearch(vector<int> &arr, int target)
             end = mid - 1;
         }
     }
-    if (mid != target)
+    if (arr[mid]!= target)
     {
         cout << "Target not found" << endl;
         return;
