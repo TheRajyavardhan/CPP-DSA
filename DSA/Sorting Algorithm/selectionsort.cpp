@@ -19,16 +19,14 @@ void selectionSort(vector<int>& arr){
             smallestIndex=j;
         }
     }
-    int temp = arr[smallestIndex];
-        arr[smallestIndex] = arr[i];
-        arr[i] = temp;
+    swap(arr[i], arr[smallestIndex]);
    }
    displayArray(arr);
    return ;
 }
 
 int main(){
-    vector<int> arr={5,6,4,2,1,};
+    vector<int> arr={5,6,4,2,1,0};
     selectionSort(arr);
     return 0;
 }

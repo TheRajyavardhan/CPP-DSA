@@ -14,9 +14,7 @@ void bubbleSort(vector<int>& arr){
         bool isSwap = false;
         for(int j=0; j<arr.size()-1-i; j++){
             if(arr[j]>arr[j+1]){
-            int temp = arr[j];
-            arr[j]=arr[j+1];
-            arr[j+1]=temp;
+            swap(arr[j], arr[j+1]);
             isSwap=true;
             }
         }               
