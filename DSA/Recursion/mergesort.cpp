@@ -38,7 +38,7 @@ void mergeSort(vector<int>& arr,int st,int end){ // (logn)
 
 int main(){
     int n;
-    cout << "No. of elments: ";
+    cout << "No. of elments: "; 
     cin>> n;
     vector<int> arr(n);
     for(int i=0; i<n; i++){
