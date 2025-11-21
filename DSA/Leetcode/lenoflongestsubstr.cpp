@@ -23,3 +23,13 @@ public:
         return maxLen;
     }
 };
+
+int main(){
+    Solution s;
+    string str;
+    cout << "Enter a string: ";
+    cin >> str;
+    cout << "Length of longest substring without repeating characters: " 
+         << s.lengthOfLongestSubstring(str) << endl;
+    return 0;
+}
